@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/Assets/IN-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_c6d6616f-4478-4ac2-bdac-f54b444771dd_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+
+}
+
+nav img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    margin-right: 200px;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.btn button:first-child {
+    background-color: rgba(0, 0, 0, 0.552);
+    color: white;
+    padding: 6px 36px;
+    border: 1px solid rgba(255, 255, 255, 0.442);
+    border-radius: 5px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn button:last-child {
+    background-color: rgb(227, 44, 44);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    height: 80vh;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 10;
+    color: white;
+}
+
+.main h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.main span {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.button input {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 25px 80px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.475);
+    border-radius: 5px;
+    margin: 2px;
+
+}
+
+.button button {
+    background-color: rgb(215, 30, 30);
+    color: white;
+    padding: 17px 18px 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.separation {
+    background-color: rgba(0, 0, 0, 0.736);
+    height: 7px;
+    width: 100%;
+}
+
+.first {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7px;
+}
+
+.content h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.content span {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tv img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.tv video {
+    width: 361px;
+    position: absolute;
+    left: 790px;
+    top: 790px;
+}
+
+.second {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7px;
+}
+
+.content-2 h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.content-2 span {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.pile img {
+    width: 500px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.pile video {
+    width: 310px;
+    position: absolute;
+    left: 825px;
+    top: 1280px;
+}
+
+.third {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 7px;
+}
+
+.content-3 h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.content-3 span {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.sky img {
+    width: 500px;
+    z-index: 10;
+
+}
+
+.faq {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.faq h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.faqbox:hover {
+    background-color: rgba(112, 110, 110, 0.703);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 70vw;
+    background-color: rgb(53, 52, 52);
+    padding: 8px 50px;
+    margin: 8px 120px;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    height: 50vh;
+    width: 100%;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.footer-item a {
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-item span {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 1327px) {
+
+    .main,
+    .section,
+    .box {
+        height: 800px;
+    }
+
+    .first,
+    .second,
+    .third,
+    .faq,
+    footer {
+        height: 500px;
+    }
+
+    .content,
+    .content-2 {
+        padding-left: 100px;
+    }
+
+    .tv img,
+    .pile img {
+        padding-top: 136px;
+        padding-left: 110px;
+    }
+
+    .tv video {
+        position: relative;
+        top: -300px;
+        left: 179px;
+
+    }
+
+    .pile video {
+        position: relative;
+        top: -333px;
+        left: 210px;
+    }
+
+}
+
+@media only screen and (max-width: 1020px) {
+
+    .first,
+    .second,
+    .third,
+    .faq,
+    footer {
+        height: 650px;
+    }
+
+    .first,
+    .second,
+    .third,
+    .faq {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tv img,
+    .pile img {
+        padding-top: 40px;
+        padding-left: 250px;
+    }
+
+    .tv video {
+        position: relative;
+        top: -300px;
+        left: 320px;
+
+    }
+
+    .pile video {
+        position: relative;
+        top: -333px;
+        left: 340px;
+    }
+
+    .third,
+    .content-3 h1,
+    span {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .third img {
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .content,
+    .content-2,
+    .content-3 {
+        padding-top: 30px;
+    }
+
+
+    .main h1,
+    .content h1,
+    .content-2 h1,
+    .content-3 h1,
+    .faq h1 {
+        font-size: 37px;
+        text-align: center;
+    }
+
+    .main span,
+    .button,
+    .content span,
+    .content-2 span,
+    .content-3 span,
+    .faqbox {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .button input,
+    button {
+        margin: 10px;
+    }
+
+    nav img {
+        margin-right: 50px;
+    }
+
+    .btn button {
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 2px;
+    }
+
+    .faqbox {
+        margin-left: 50px;
+        height: 20vh;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .tv img,
+    .pile img {
+        padding-top: 40px;
+        padding-left: 130px;
+        width: 400px;
+    }
+
+    .tv video {
+        position: relative;
+        top: -242px;
+        left: 185px;
+        width: 288px;
+
+    }
+
+    .pile video {
+        position: relative;
+        top: -270px;
+        left: 201px;
+        width: 255px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .tv img,
+    .pile img {
+        padding-top: 40px;
+        padding-left: 80px;
+        width: 300px;
+    }
+
+    .tv video {
+        position: relative;
+        top: -185px;
+        left: 122px;
+        width: 220px;
+    }
+
+    .pile video {
+        position: relative;
+        top: -202px;
+        left: 139px;
+        width: 185px;
+    }
+
+    .faqbox {
+        margin-left: -10px;
+        height: 20vh;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
